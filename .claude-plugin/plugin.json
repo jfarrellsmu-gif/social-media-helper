@@ -1,0 +1,5 @@
+{
+  "name": "social-media-helper",
+  "version": "1.1.0",
+  "description": "Read public web pages (shops, listings, course pages) with the Obscura headless browser when a normal fetch returns nothing. No stealth mode, no bypassing site blocks, and nothing is installed without the user's yes."
+}
