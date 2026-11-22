@@ -1,12 +1,13 @@
 ---
-name: social-media-helper
+name: obscura-page-reader
 description: Read a public web page (a shop listing, product page, course page or directory) with the Obscura headless browser when a normal web fetch comes back empty because the page needs JavaScript. Use when the user asks to read or compare public pages and the normal fetch tool returned nothing. Not for getting past bot-blocking, logins or paywalls.
-allowed-tools: Bash(obscura fetch:*), Bash(obscura --version), Read
 ---
 
-# Social Media Helper (careful page reader)
+# Obscura Page Reader
 
 Some public pages only show their content after JavaScript runs, so a plain fetch comes back empty. This skill reads those pages with the Obscura headless browser, then summarizes what the user asked for.
+
+This skill grants no automatic permissions: every `obscura` command goes through the user's normal approval prompt, so show the full command before running it.
 
 ## Rules
 

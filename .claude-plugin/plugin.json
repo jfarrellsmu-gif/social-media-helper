@@ -1,5 +1,6 @@
 {
-  "name": "social-media-helper",
-  "version": "1.1.0",
-  "description": "Read public web pages (shops, listings, course pages) with the Obscura headless browser when a normal fetch returns nothing. No stealth mode, no bypassing site blocks, and nothing is installed without the user's yes."
+  "name": "obscura-page-reader",
+  "version": "1.2.0",
+  "description": "Read public web pages that need JavaScript (shop listings, product pages, course pages) with the Obscura headless browser when a normal fetch returns nothing. No stealth mode, no bypassing site blocks, nothing installed, and every browser command needs the user's approval.",
+  "repository": "https://github.com/jfarrellsmu-gif/social-media-helper"
 }
